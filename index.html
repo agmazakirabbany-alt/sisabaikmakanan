@@ -8,7 +8,8 @@
 </head>
     
 <body>
-   <a href="#konten-utama">Lewati ke konten utama</a> 
+   <a href="#konten-utama">Lewati ke konten utama</a>
+   <script src="app.js"></script>
 </body>
 </html>
 
@@ -47,7 +48,7 @@ terjangkau, dan tidak terbuang.">
 <p class="eyebrow">Selamatkan makanan, pulihkan nilainya</p>
 <h1 id="judul-utama">Makanan berlebih masih dapat memberi manfaat</h1>
 <p class="lead">SisaBaik mempertemukan penyedia yang memiliki stok makanan layak konsumsi dengan pembeli
-atau penerima yang membutuhkannya .< /p>
+atau penerima yang membutuhkannya .
 <div class="button-group">
 <a class="button" href="daftar-penyedia.html">Mulai sebagai penyedia</a>
 <a class="button button-secondary" href="#penawaran-contoh">Lihat contoh penawaran</a>
@@ -55,7 +56,7 @@ atau penerima yang membutuhkannya .< /p>
 </div>
 <aside class="hero-panel" aria-label="Ringkasan manfaat SisaBaik">
 <strong>3 pihak</strong>
-<p>Penyedia, pengguna, dan lingkungan memperoleh manfaat dari makanan yang tidak terbuang .< /p>
+<p>Penyedia, pengguna, dan lingkungan memperoleh manfaat dari makanan yang tidak terbuang .
 </aside>
 </div>
 </section>
@@ -64,22 +65,22 @@ atau penerima yang membutuhkannya .< /p>
 <div class="container">
 <h2 id="judul-cara-kerja">Cara kerja</h2>
 <p class="section-intro">Alur sederhana ini akan dikembangkan menjadi proses aplikasi penuh pada chapter
-berikutnya .< /p>
+berikutnya .</p>
 <div class="steps-grid">
 <article class="card">
 <span class="step-number" aria-hidden="true">1</span>
 <h3>Daftarkan usaha</h3>
-<p>Penyedia mencatat identitas dan informasi dasar usahanya .< /p>
+<p>Penyedia mencatat identitas dan informasi dasar usahanya .
 </article>
 <article class="card">
 <span class="step-number" aria-hidden="true">2</span>
 <h3>Catat makanan</h3>
-<p>Penyedia menjelaskan makanan berlebih yang masih layak konsumsi .< /p>
+<p>Penyedia menjelaskan makanan berlebih yang masih layak konsumsi .
 </article>
 <article class="card">
 <span class="step-number" aria-hidden="true">3</span>
 <h3>Atur pengambilan</h3>
-<p>Pengguna memilih penawaran dan mengambilnya sesuai ketentuan .< /p>
+<p>Pengguna memilih penawaran dan mengambilnya sesuai ketentuan .
 </article>
 </div>
 </div>
@@ -92,12 +93,12 @@ berikutnya .< /p>
 <article class="card">
 <h3>Untuk penyedia</h3>
 <p>Memulihkan sebagian nilai stok, menjangkau pengguna baru, dan mencatat kontribusi pengurangan limbah
-pangan .< /p>
+pangan .
 </article>
 <article class="card">
 <h3>Untuk pembeli atau penerima</h3>
 <p>Membuka akses terhadap makanan layak konsumsi dengan harga lebih terjangkau atau melalui
-penyaluran .< /p>
+penyaluran .</p>
 </article>
 <article class="card">
 <h3>Untuk lingkungan dan masyarakat</h3>
@@ -163,14 +164,14 @@ informasi kondisi, alergen, penyimpanan, dan batas waktu pengambilan secara juju
 
 <footer class="site-footer">
 <div class="container footer-layout">
-<p>&copy; 2026 SisaBaik - Proyek pembelajaran Pengembangan Web .< /p>
+
 <address><a href="mailto:tim@sisabaik.example">tim@sisabaik.example</a></address>
 </div>
 </footer>
 </body>
 </html>
 
-<! doctype html>
+<!doctype html>
 <html lang="id">
 <head>
 <meta charset="utf-8">
@@ -207,8 +208,7 @@ Daftar sebagai penyedia
 <h1>Daftar sebagai penyedia SisaBaik</h1>
 <p class="lead">
 
-    Gunakan data fiktif selama praktikum. Formulir ini belum terhubung ke
-server dan basis data.
+    Gunakan data fiktif selama praktikum. Jangan mendaftarkan usaha yang tidak nyata atau menyalahi hukum .
 </p>
 <p class="required-note" id="petunjuk-wajib">Kolom bertanda <strong> *< /strong> wajib diisi .< /p>
 </div>
@@ -296,7 +296,7 @@ required
 </p>
 
 <p>
-<label for="telepon">Nomor telepon *< /label><br>
+<label for="telepon">Nomor telepon *</label><br>
 <input
 type="tel"
 id="telepon"
@@ -318,7 +318,7 @@ Gunakan 8-20 karakter berupa angka, spasi, +, atau tanda kurung.
 
 <p>
 
-    <label for="alamat">Alamat lengkap *< /label><br>
+    <label for="alamat">Alamat lengkap </label><br>
 <textarea
 id="alamat"
 name="alamat"
@@ -331,7 +331,7 @@ required
 </p>
 
 <p>
-<label for="kota">Kabupaten atau kota *< /label><br>
+<label for="kota">Kabupaten atau kota </label><br>
 <input
 type="text"
 id="kota"
@@ -343,7 +343,7 @@ required
 </p>
 
 <p>
-<label for="provinsi">Provinsi *< /label><br>
+<label for="provinsi">Provinsi *</label><br>
 <input
 type="text"
 id="provinsi"
@@ -355,7 +355,7 @@ required
 </p>
 
 <p>
-<label for="kode-pos">Kode pos *< /label><br>
+<label for="kode-pos">Kode pos *</label><br>
 <input
 type="text"
 id="kode-pos"
@@ -366,7 +366,7 @@ pattern="[0-9]{5}"
 aria-describedby="bantuan-kode-pos"
 required
 ><br>
-<small id="bantuan-kode-pos">Masukkan tepat lima digit .< /small>
+<small id="bantuan-kode-pos">Masukkan tepat lima digit .</small>
 </p>
 </fieldset>
 
@@ -394,26 +394,23 @@ data pribadi atau data usaha yang sebenarnya. *
 </form>
 
 <section class="section" aria-labelledby="catatan-prototipe">
-<h2 id="catatan-prototipe">Apa yang terjadi setelah tombol dikirim ?< /h2>
+<h2 id="catatan-prototipe">Apa yang terjadi setelah tombol dikirim ?</h2>
 <p>
-Browser memeriksa atribut validasi HTML terlebih dahulu. Jika semua
-input valid, halaman dimuat ulang dan pasangan nama-nilai terlihat
-pada alamat halaman. Data belum disimpan. Pada chapter backend,
-metode sementara ini akan diganti dengan pengiriman ke server.
+
 </p>
 </section>
 </main>
 
 <footer class="site-footer">
 <div class="container footer-layout">
-<p>&copy; 2026 SisaBaik - Proyek pembelajaran Pengembangan Web .< /p>
+<p>
 </div>
 </footer>
 </body>
 </html>
 
 
-<! doctype html>
+<!doctype html>
 <html lang="id">
 <head>
 <meta charset="utf-8">
@@ -453,7 +450,7 @@ Tawarkan makanan
     Gunakan data fiktif selama praktikum. Jangan menawarkan makanan yang
 rusak, kedaluwarsa, tercemar, atau tidak aman dikonsumsi.
 </p>
-<p class="required-note" id="petunjuk-wajib">Kolom bertanda <strong> *< /strong> wajib diisi .< /p>
+<p class="required-note" id="petunjuk-wajib">Kolom bertanda <strong> *</strong> wajib diisi .</p>
 </div>
 
 <form
@@ -466,19 +463,19 @@ aria-describedby="petunjuk-wajib"
 <legend>Identitas makanan</legend>
 
 <p>
-<label for="nama-makanan">Nama makanan *< /label><br>
+<label for="nama-makanan">Nama makanan *</label><br>
 <input
 type="text"
 id="nama-makanan"
 name="nama_makanan"
 minlength="3"
-maxlength="120"
+maxlength="130"
 required
 
 </p>
 
 <p>
-<label for="kategori">Kategori *< /label><br>
+<label for="kategori">Kategori *</label><br>
 <select id="kategori" name="kategori" required>
 <option value="">Pilih kategori</option>
 <option value="makanan-siap-saji">Makanan siap saji</option>
@@ -512,7 +509,7 @@ fieldset class="form-section">
 <legend>Jumlah dan skema pemulihan nilai</legend>
 
 <p>
-<label for="jumlah">Jumlah tersedia *< /label><br>
+<label for="jumlah">Jumlah tersedia *</label><br>
 <input
 type="number"
 id="jumlah"
@@ -525,7 +522,7 @@ required
 </p>
 
 <p>
-<label for="satuan">Satuan *< /label><br>
+<label for="satuan">Satuan *</label><br>
 <select id="satuan" name="satuan" required>
 <option value="">Pilih satuan</option>
 <option value="porsi">Porsi</option>
@@ -537,7 +534,7 @@ required
 </p>
 
 <p>
-<label for="harga-normal">Harga normal per satuan (rupiah) *< /label><br>
+<label for="harga-normal">Harga normal per satuan (rupiah) *</label><br>
 <input
 type="number"
 id="harga-normal"
@@ -550,7 +547,7 @@ required
 </p>
 
 <fieldset class="form-section">
-<legend>Jenis penawaran *< /legend>
+<legend>Jenis penawaran *</legend>
 <p>
 <input
 type="radio"
@@ -573,7 +570,7 @@ value="donasi"
 </fieldset>
 
 <p>
-<label for="harga-pemulihan">Harga penawaran per satuan (rupiah) *< /label><br>
+<label for="harga-pemulihan">Harga penawaran per satuan (rupiah) *</label><br>
 <input
 type="number"
 id="harga-pemulihan"
@@ -585,8 +582,6 @@ aria-describedby="bantuan-harga"
 required
 ><br>
 <small id="bantuan-harga">
-Isi O jika makanan disalurkan tanpa biaya. Perbandingan dengan
-harga normal akan divalidasi menggunakan JavaScript pada chapter berikutnya.
 </small>
 </p>
 </fieldset>
@@ -596,7 +591,7 @@ harga normal akan divalidasi menggunakan JavaScript pada chapter berikutnya.
 
 <p>
 
-    <label for="batas-pengambilan">Batas waktu pengambilan *< /label><br>
+    <label for="batas-pengambilan">Batas waktu pengambilan *</label><br>
 <input
 type="datetime-local"
 id="batas-pengambilan"
@@ -639,7 +634,7 @@ required
 </fieldset>
 
 <p>
-<label for="lokasi-pengambilan">Lokasi pengambilan *< /label><br>
+<label for="lokasi-pengambilan">Lokasi pengambilan *</label><br>
 <textarea
 id="lokasi-pengambilan"
 name="lokasi_pengambilan"
@@ -676,21 +671,84 @@ informasi kondisi serta alergennya telah ditulis dengan jujur. *
 </form>
 
 <section class="section" aria-labelledby="batas-validasi-html">
-<h2 id="batas-validasi-html">Batas validasi pada tahap HTML</h2>
+
+</div>
+</footer>
+</body>
+</html>
+
+<section class="section" id="penawaran-contoh" aria-labelledby="judul-penawaran">
+<div class="container">
+<h2 id="judul-penawaran">Contoh penawaran hari ini</h2>
+<p class="section-intro">Data fiktif dimuat dari JSON untuk latihan JavaScript.
+<form class="filter-panel" id="filter-form" role="search">
 <p>
-Atribut HTML dapat memeriksa isian wajib, format dasar, dan rentang
-angka. Namun, HTML belum dapat memastikan harga penawaran lebih kecil
-daripada harga normal atau batas pengambilan berada di masa depan.
-Aturan lintas-kolom tersebut akan ditambahkan dengan JavaScript dan
-tetap diperiksa ulang pada server.
+<label for="kata-kunci">Cari penawaran</label><br>
+<input id="kata-kunci" name="kata_kunci" type="search" placeholder="Contoh: roti">
 </p>
+<D>
+<label for="filter-kategori">Kategori</label><br>
+<select id="filter-kategori" name="kategori">
+<option value="semua">Semua kategori</option>
+<option value="makanan-siap-saji">Makanan siap saji</option>
+<option value="roti-kue">Roti dan kue</option>
+<option value="buah-sayur">Buah dan sayur</option>
+</select>
+</p>
+</form>
+<p id="status-katalog" class="status-message" role="status" aria-live="polite">Memuat penawaran 
+<div class="offer-grid" id="daftar-penawaran"></div>
+<aside class="cart-summary" aria-labelledby="judul-ringkasan">
+<h3 id="judul-ringkasan">Ringkasan pemesanan</h3>
+<p><span id="jumlah-item">0</span> item . total <strong id="total-pesanan">Rp0</strong></p>
+</aside>
+</div>
+</div>
+</section>
+
+<section class="section section-alt" aria-labelledby="judul-keamanan">
+<div class="container">
+<div class="notice">
+<h2 id="judul-keamanan">Komitmen keamanan pangan </h2>
+<p>SisaBaik hanya ditujukan untuk makanan yang masih layak konsumsi. Penyedia bertanggung jawab memberikan
+informasi kondisi, alergen, penyimpanan, dan batas waktu pengambilan secara jujur.
+</div>
+</div>
 </section>
 </main>
 
 <footer class="site-footer">
 <div class="container footer-layout">
-<p>&copy; 2026 SisaBaik - Proyek pembelajaran Pengembangan Web .< /p>
+<p>&copy; 2026 SisaBaik - Proyek pembelajaran Pengembangan Web.
+<address><a href="mailto:tim@sisabaik.example">tim@sisabaik.example</a></address>
 </div>
 </footer>
 </body>
 </html>
+
+---------
+<form class="filter-panel" id="filter-form" role="search">
+  <p>
+    <label for="kata-kunci">Cari penawaran</label><br>
+    <input id="kata-kunci" name="kata_kunci" type="search" placeholder="Contoh: roti">
+  </p>
+  <p>
+    <label for="filter-kategori">Kategori</label><br>
+    <select id="filter-kategori" name="kategori">
+      <option value="semua">Semua kategori</option>
+      <option value="makanan-siap-saji">Makanan siap saji</option>
+      <option value="roti-kue">Roti dan kue</option>
+      <option value="buah-sayur">Buah dan sayur</option>
+    </select>
+  </p>
+</form>
+
+<p id="status-katalog" class="status-message" role="status" aria-live="polite">Memuat penawaran…</p>
+<div class="offer-grid" id="daftar-penawaran"></div>
+
+<aside class="cart-summary" aria-labelledby="judul-ringkasan">
+  <h3 id="judul-ringkasan">Ringkasan pemesanan</h3>
+  <p><span id="jumlah-item">0</span> item · total <strong id="total-pesanan">Rp0</strong></p>
+</aside>
+
+
