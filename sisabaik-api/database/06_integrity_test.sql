@@ -1,6 +1,4 @@
--- Uji negatif terkontrol: setiap pelanggaran harus ditolak PostgreSQL.
--- Blok EXCEPTION menangkap kegagalan yang memang diharapkan sehingga
--- skrip tetap selesai dan tidak meninggalkan transaksi dalam status gagal.
+
 
 DO $$
 BEGIN
